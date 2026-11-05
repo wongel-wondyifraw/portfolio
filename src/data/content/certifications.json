@@ -1,0 +1,36 @@
+[
+  {
+    "id": "systems-architecture",
+    "title": "Introduction to Systems Architecture",
+    "issuer": "Coursera Verification Authority",
+    "platform": "Coursera",
+    "credentialId": "RWFUKI5XOHNK",
+    "verifyUrl": "https://www.coursera.org/account/accomplishments/verify/RWFUKI5XOHNK",
+    "thumbnail": "/certifications/systems-architecture.png",
+    "badge": "System Architecture",
+    "skills": ["Systems Architecture", "Enterprise Decomposition", "System Design", "Scalability"]
+  },
+  {
+    "id": "product-owner-scrum",
+    "title": "The Product Owner Profession: Unleashing the Power of Scrum",
+    "issuer": "SkillUp EdTech · Coursera",
+    "platform": "Coursera",
+    "credentialId": "AH4YF2ZX90S8",
+    "verifyUrl": "https://www.coursera.org/account/accomplishments/verify/AH4YF2ZX90S8",
+    "thumbnail": "/certifications/product-owner-scrum.png",
+    "badge": "Product Ownership",
+    "skills": ["Scrum Framework", "Product Ownership", "Sprint Planning", "Backlog Management"]
+  },
+  {
+    "id": "ux-design-fundamentals",
+    "title": "User Experience Design Fundamentals",
+    "issuer": "Credly Verified Issuer",
+    "platform": "Credly",
+    "credentialId": "4b9ff9ac-a6ef-491a-851c-d488210f546f",
+    "verifyUrl": "https://www.credly.com/badges/4b9ff9ac-a6ef-491a-851c-d488210f546f/public_url",
+    "thumbnail": "/certifications/ux-design-fundamentals.png",
+    "badge": "UX & UI Design",
+    "skills": ["UX Research", "Wireframing", "Information Architecture", "Usability Testing"]
+  }
+]
+

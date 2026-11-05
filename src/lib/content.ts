@@ -3,6 +3,7 @@ import socialsJson from "@/data/content/socials.json";
 import projectsJson from "@/data/content/projects.json";
 import experienceJson from "@/data/content/experience.json";
 import skillsJson from "@/data/content/skills.json";
+import certificationsJson from "@/data/content/certifications.json";
 
 // Import individual project detail JSON sources
 import selamnewWorkspaceDetail from "@/data/content/project-details/selamnew-workspace.json";
@@ -18,6 +19,7 @@ import type {
   ProjectDetail,
   ExperienceItem,
   SkillCategoryItem,
+  CertificationItem,
   PortfolioDataStore,
 } from "@/data/types";
 
@@ -90,6 +92,11 @@ export function getSkills(): SkillCategoryItem[] {
   return skillsJson as SkillCategoryItem[];
 }
 
+export function getCertifications(): CertificationItem[] {
+  if (!Array.isArray(certificationsJson)) return [];
+  return certificationsJson as CertificationItem[];
+}
+
 export function getPortfolioData(): PortfolioDataStore {
   return {
     personal: getPersonalInformation(),
@@ -97,5 +104,6 @@ export function getPortfolioData(): PortfolioDataStore {
     projects: getProjects(),
     experiences: getExperience(),
     skills: getSkills(),
+    certifications: getCertifications(),
   };
 }

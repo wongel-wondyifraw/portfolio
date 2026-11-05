@@ -23,7 +23,8 @@ export function Sidebar({ activeSection }: SidebarProps) {
     { id: "projects", label: "CASE STUDIES", number: "02" },
     { id: "experience", label: "EXPERIENCE", number: "03" },
     { id: "skills", label: "SKILLS & MATRIX", number: "04" },
-    { id: "contact", label: "CONTACT", number: "05" },
+    { id: "certifications", label: "CERTIFICATIONS", number: "05" },
+    { id: "contact", label: "CONTACT", number: "06" },
   ];
 
   const linkedinUrl =

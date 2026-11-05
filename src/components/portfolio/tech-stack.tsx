@@ -122,23 +122,27 @@ export function TechStack() {
               </div>
             </div>
 
-            {/* Certifications */}
-            {portfolioData.personal.certificates && portfolioData.personal.certificates.length > 0 && (
+            {/* Accreditations & Certifications Link */}
+            <div className="flex flex-col justify-between">
               <div>
                 <div className="flex items-center gap-1.5 text-xs font-mono text-primary uppercase tracking-wider mb-1 font-semibold">
                   <Award className="size-3.5" />
-                  <span>Certifications</span>
+                  <span>Verified Accreditations</span>
                 </div>
-                <ul className="space-y-1.5 mt-1.5">
-                  {portfolioData.personal.certificates.map((cert, idx) => (
-                    <li key={idx} className="text-xs text-muted-foreground flex items-center gap-2">
-                      <span className="size-1 rounded-full bg-primary shrink-0" />
-                      <span>{cert}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-xs text-muted-foreground leading-relaxed">
+                  3 industry certifications verified across Coursera and Credly in Systems Architecture, Agile Scrum Product Ownership, and UX Design Fundamentals.
+                </p>
               </div>
-            )}
+              <div className="pt-3">
+                <a
+                  href="#certifications"
+                  className="text-xs font-mono text-primary hover:underline inline-flex items-center gap-1 font-medium"
+                >
+                  <span>View Verified Certifications</span>
+                  <span>↓</span>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       )}

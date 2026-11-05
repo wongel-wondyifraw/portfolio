@@ -4,6 +4,7 @@ import {
   getProjects,
   getExperience,
   getSkills,
+  getCertifications,
   getProjectCategories,
   getPortfolioData,
 } from "@/lib/content";
@@ -14,11 +15,13 @@ import type {
   ProjectItem,
   ExperienceItem,
   SkillCategoryItem,
+  CertificationItem,
 } from "@/data/types";
 
 export type Project = ProjectItem;
 export type Experience = ExperienceItem;
 export type SkillCategory = SkillCategoryItem;
+export type Certification = CertificationItem;
 
 export interface LegacyPortfolioData {
   personal: PersonalInformation & { role: string; status: string; company?: string };
@@ -26,6 +29,7 @@ export interface LegacyPortfolioData {
   projects: ProjectItem[];
   experiences: ExperienceItem[];
   skillCategories: { title: string; skills: { name: string }[] }[];
+  certifications: CertificationItem[];
 }
 
 const rawPersonal = getPersonalInformation();
@@ -43,6 +47,7 @@ export const portfolioData: LegacyPortfolioData = {
     title: cat.title,
     skills: cat.skills.map((s) => ({ name: s })),
   })),
+  certifications: getCertifications(),
 };
 
 export {
@@ -51,6 +56,7 @@ export {
   getProjects,
   getExperience,
   getSkills,
+  getCertifications,
   getProjectCategories,
   getPortfolioData,
 };

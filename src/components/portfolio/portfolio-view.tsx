@@ -6,6 +6,7 @@ import { AboutSection } from "@/components/portfolio/about-section";
 import { BentoGrid } from "@/components/portfolio/bento-grid";
 import { Experience } from "@/components/portfolio/experience";
 import { TechStack } from "@/components/portfolio/tech-stack";
+import { Certifications } from "@/components/portfolio/certifications";
 import { Contact } from "@/components/portfolio/contact";
 import { Footer } from "@/components/portfolio/footer";
 
@@ -13,7 +14,7 @@ export function PortfolioView() {
   const [activeSection, setActiveSection] = React.useState<string>("about");
 
   React.useEffect(() => {
-    const sectionIds = ["about", "projects", "experience", "skills", "contact"];
+    const sectionIds = ["about", "projects", "experience", "skills", "certifications", "contact"];
 
     const handleScroll = () => {
       // If reached the bottom of the page, activate the contact section
@@ -57,6 +58,7 @@ export function PortfolioView() {
             <BentoGrid />
             <Experience />
             <TechStack />
+            <Certifications />
             <Contact />
             <Footer />
           </main>

@@ -128,11 +128,24 @@ export interface SkillCategoryItem {
   skills: string[];
 }
 
+export interface CertificationItem {
+  id: string;
+  title: string;
+  issuer: string;
+  platform: string;
+  credentialId: string;
+  verifyUrl: string;
+  thumbnail: string;
+  badge: string;
+  skills?: string[];
+}
+
 export interface PortfolioDataStore {
   personal: PersonalInformation;
   socials: SocialLink[];
   projects: ProjectItem[];
   experiences: ExperienceItem[];
   skills: SkillCategoryItem[];
+  certifications: CertificationItem[];
 }
 
