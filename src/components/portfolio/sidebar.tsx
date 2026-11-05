@@ -12,9 +12,10 @@ import { cn } from "@/lib/utils";
 
 interface SidebarProps {
   activeSection: string;
+  onSectionClick?: (id: string) => void;
 }
 
-export function Sidebar({ activeSection }: SidebarProps) {
+export function Sidebar({ activeSection, onSectionClick }: SidebarProps) {
   const { copied, copy } = useClipboard();
   const { playClick } = useAudio();
 
@@ -33,6 +34,7 @@ export function Sidebar({ activeSection }: SidebarProps) {
 
   const scrollTo = (id: string) => {
     playClick();
+    onSectionClick?.(id);
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });

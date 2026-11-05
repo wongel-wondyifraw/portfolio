@@ -70,7 +70,7 @@ export function Contact() {
       {/* Section Header */}
       <div className="pb-3 border-b border-border/50">
         <span className="text-xs font-mono uppercase tracking-wider text-primary font-semibold block mb-1">
-          05 // Contact &amp; Connect
+          06 // Contact &amp; Connect
         </span>
         <h2 className="text-2xl font-bold tracking-tight text-foreground font-sans">
           Let&apos;s Build Together.
