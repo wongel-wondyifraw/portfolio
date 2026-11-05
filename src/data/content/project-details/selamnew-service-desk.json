@@ -1,0 +1,44 @@
+{
+  "id": "selamnew-service-desk",
+  "title": "Service Desk (SD)",
+  "subtitle": "Enterprise ITSM Incident Management & SLA Automation Platform",
+  "category": "ITSM & Support Systems",
+  "year": "2023 - Present",
+  "role": "Product Owner | Business Analyst",
+  "client": "IE Networking Solutions",
+  "description": "Architected product capabilities for the Service Desk (SD) platform, establishing automated multi-tier ticket routing, SLA threshold timers, priority escalation rules, and end-to-end incident lifecycle visibility.",
+  "image": "/projects/sd.png",
+  "featured": true,
+  "metrics": "",
+  "liveUrl": "",
+  "githubUrl": "",
+  "gradient": "from-purple-600/35 via-violet-600/25 to-stone-600/30",
+  "tags": [
+    "Product Ownership",
+    "ITSM / Service Desk",
+    "SLA Escalation Rules",
+    "PRDs & FRDs",
+    "Process Swimlanes",
+    "UI/UX Prototypes",
+    "Quality Assurance"
+  ],
+  "overview": "Service Desk (SD) is an IT Service Management platform designed to streamline incident resolution, SLA compliance, and support ticket governance. As Product Owner and Business Analyst at IE Networking Solutions, I owned the product vision and functional breakdown, turning complex support processes into intuitive automated software flows.",
+  "challenge": "Support teams were hindered by manual ticket assignment, unmonitored SLA breaches, and ambiguity surrounding ticket ownership across Tier-1, Tier-2, and Tier-3 engineering squads. Lack of real-time auditability hindered root-cause investigation.",
+  "solution": "Defined comprehensive business rules for automated skill-based ticket routing and dynamic SLA countdown engines. Authored Functional Requirements Documents (FRDs) covering severity classification (P1 through P4), escalation triggers, and post-incident review workflows. Wireframed responsive customer self-service portals and agent triage consoles using AI prototyping.",
+  "architecture": {
+    "problem": "Manual ticket dispatch and untracked service level agreements caused high Mean Time to Resolution (MTTR) and customer dissatisfaction.",
+    "tradeoffs": "Engineered automated rule-based ticket routing matrices and event-driven SLA timer hooks to instantly escalate unresolved incidents.",
+    "metricsDetail": [
+      "Architected automated ticket routing matrices, severity scoring models, and escalation paths",
+      "Authored extensive PRDs and FRDs specifying edge cases, state transitions, and SLA timers",
+      "Designed intuitive triage interfaces and telemetry dashboards with AI prototyping",
+      "Facilitated sprint planning, user story acceptance testing, and QA validation cycles",
+      "Delivered operator standard operating procedures (SOPs), user manuals, and release notes"
+    ]
+  },
+  "outcomes": [
+    "Dramatically reduced ticket triage friction and eliminated unassigned support requests.",
+    "Provided real-time SLA compliance monitoring and transparency for service management leadership.",
+    "Equipped enterprise support teams with clean, purpose-built tools that scaled with user volume."
+  ]
+}

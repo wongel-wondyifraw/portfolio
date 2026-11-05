@@ -1,0 +1,40 @@
+{
+  "name": "Wongel Wondyifraw",
+  "title": "Business Analyst | Product Owner",
+  "headline": {
+    "line1": "Changing business need to",
+    "line2": "scalable products.",
+    "lead": "Changing business need to",
+    "gradient": "scalable products."
+  },
+  "bio": "B.Eng. (2025) and Product Owner with experience across Selamnew Workspace, Service Desk (SD), and CRM platforms. Backlog management, requirements definition, and agile system design.",
+  "about": "B.Eng. (2025) and Product Owner with experience across Selamnew Workspace, Service Desk (SD), and CRM platforms at IE Networking Solutions. Responsible for backlog management, requirements definition, and system design, alongside hands-on experience in web development, IT support, and small network setup. Strong focus on execution, problem-solving, and continuous skill development.",
+  "location": "Addis Abeba, Ethiopia",
+  "timezone": "UTC+3",
+  "email": "weniichrist@gmail.com",
+  "phone": "+251 944308597",
+  "resumeUrl": "#resume",
+  "stats": [
+    {
+      "label": "Degree (2025)",
+      "value": "B.Sc. Eng"
+    },
+    {
+      "label": "Core Systems",
+      "value": "3+"
+    }
+  ],
+  "education": {
+    "degree": "BSc Electrical and Computer Engineering",
+    "institution": "Hawassa University",
+    "period": "09/2020 – 07/2025",
+    "location": "Hawassa, Ethiopia",
+    "gpa": "3.46/4.00",
+    "exitExam": "75/100"
+  },
+  "certificates": [
+    "Fundamental Programming — Udacity — 2024",
+    "The Product Owner Profession: Unleashing the Power of Scrum",
+    "User Experience Design Fundamentals"
+  ]
+}

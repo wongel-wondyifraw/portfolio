@@ -1,0 +1,45 @@
+{
+  "id": "selamnew-workspace",
+  "title": "Selamnew Workspace",
+  "subtitle": "Digital Workforce and Benefit Administration",
+  "category": "Workforce & Benefit Administration",
+  "year": "2023 - Present",
+  "role": "Product Owner | Business Analyst",
+  "client": "IE Networking Solutions",
+  "description": "Led the end-to-end product lifecycle for Selamnew Workspace, delivering a comprehensive digital workforce platform for automated attendance tracking, benefit & compensation administration, workforce planning, and employee performance tracking.",
+  "image": "/projects/selamnew-workspace.png",
+  "featured": true,
+  "metrics": "",
+  "liveUrl": "",
+  "githubUrl": "",
+  "gradient": "from-amber-600/35 via-orange-600/25 to-stone-600/30",
+  "tags": [
+    "Product Ownership",
+    "Workforce Administration",
+    "Benefit & Compensation",
+    "Attendance Tracking",
+    "Performance Systems",
+    "PRDs & FRDs",
+    "Backlog Grooming",
+    "Scrum & Agile"
+  ],
+  "overview": "Selamnew Workspace was conceptualized and executed as an integrated Digital Workforce and Benefit Administration platform. It unifies daily attendance tracking, benefit and compensation management, workforce planning, and employee performance tracking into a centralized enterprise system. Serving as Product Owner and Business Analyst at IE Networking Solutions, I owned the entire product lifecycle—from stakeholder discovery and requirements definition (PRDs/FRDs) to backlog grooming, sprint execution, and organizational release management.",
+  "challenge": "Organizations faced fragmented, error-prone manual workflows across attendance tracking, complex employee benefit calculations, compensation administration, and disconnected performance reviews. Disparate spreadsheets and legacy logging led to payroll inaccuracies, lack of compliance visibility, and inability to track workforce performance metrics against organizational goals.",
+  "solution": "Conducted extensive stakeholder discovery with HR, operations, and finance teams to formulate clear Functional Requirements Documents (FRDs) and business rules. Translated attendance policies, compensation models, benefit tiers, and KPI-driven performance appraisal rubrics into structured user stories and automated system workflows. Collaborated with engineering squads and QA to deliver a reliable, role-based workforce management platform.",
+  "architecture": {
+    "problem": "Manual attendance logging and disconnected benefit, compensation, and appraisal records caused operational bottlenecks, compliance risks, and delayed performance reviews.",
+    "tradeoffs": "Architected structured relational schemas and automated policy-driven calculation engines for attendance, compensation, and performance scoring over disjointed legacy spreadsheets.",
+    "metricsDetail": [
+      "Authored comprehensive PRDs, FRDs, and user stories for attendance, benefits, compensation, and performance tracking",
+      "Owned and prioritized sprint backlogs, leading sprint planning, grooming, and review ceremonies",
+      "Designed system process flows, policy validation rules, and approval workflow swimlanes",
+      "Collaborated closely with developers and QA engineers to ensure timely delivery and UAT sign-off",
+      "Produced end-user documentation, administrator manuals, and release rollout notes"
+    ]
+  },
+  "outcomes": [
+    "Delivered full product lifecycle on schedule from requirements discovery through testing and enterprise release.",
+    "Automated attendance capture and streamlined benefit & compensation administration workflows.",
+    "Integrated structured planning and performance tracking, giving leadership actionable workforce metrics."
+  ]
+}

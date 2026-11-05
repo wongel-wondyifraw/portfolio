@@ -1,0 +1,29 @@
+[
+  {
+    "id": "exp-ie-networking",
+    "role": "Product Owner | Business Analyst",
+    "company": "IE Networking Solutions",
+    "companyUrl": "https://ienetworksolutions.com",
+    "location": "Addis Abeba, Ethiopia",
+    "period": "2023 - Present",
+    "description": "Served as a Product Owner | Business Analyst for multiple enterprise platforms, including Selamnew Workspace, Service Desk (SD), and CRM systems. Led the product lifecycle end-to-end—driving backlog management, requirements definition, and cross-functional team delivery.",
+    "technologies": [
+      "Selamnew Workspace",
+      "Service Desk (SD)",
+      "CRM Platforms",
+      "Scrum / Agile",
+      "PRDs & FRDs",
+      "User Stories",
+      "AI Prototyping",
+      "Jira & ClickUp"
+    ],
+    "highlights": [
+      "Managed the end-to-end product lifecycle for Selamnew Workspace, Service Desk (SD), and CRM platforms from requirements gathering to testing and release.",
+      "Owned and prioritized product backlogs, translating business requirements and stakeholder feedback into actionable development tasks.",
+      "Defined functional requirements, user stories, acceptance criteria, business rules, and feature specifications to guide engineering implementation.",
+      "Prepared Product Requirements Documents (PRDs), Functional Requirements Documents (FRDs), user guides, release notes, and system documentation.",
+      "Collaborated with developers, QA engineers, and stakeholders to align technical implementation, delivery timelines, and business priorities.",
+      "Designed system workflows, process flows, and UI/UX prototypes using AI prototyping to communicate requirements and improve usability."
+    ]
+  }
+]

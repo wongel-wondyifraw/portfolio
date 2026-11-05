@@ -1,0 +1,44 @@
+{
+  "id": "selamnew-crm",
+  "title": "CRM",
+  "subtitle": "End-to-End Customer Relationship & Revenue Pipeline Platform",
+  "category": "CRM & Revenue Ops",
+  "year": "2023 - Present",
+  "role": "Product Owner | Business Analyst",
+  "client": "IE Networking Solutions",
+  "description": "Directed the product lifecycle for the enterprise CRM platform, standardizing lead qualification pipelines, deal stage progressions, and stakeholder communication records into a high-visibility revenue operations platform.",
+  "image": "/projects/crm.png",
+  "featured": true,
+  "metrics": "",
+  "liveUrl": "",
+  "githubUrl": "",
+  "gradient": "from-orange-600/35 via-amber-600/25 to-stone-600/30",
+  "tags": [
+    "Product Strategy",
+    "CRM Architecture",
+    "Requirements Gathering",
+    "Process Optimization",
+    "User Stories",
+    "AI Prototyping",
+    "Stakeholder Alignment"
+  ],
+  "overview": "The enterprise CRM platform was developed to solve commercial revenue visibility and sales pipeline bottlenecks at IE Networking Solutions. Serving as Product Owner and Business Analyst, I translated executive growth objectives, sales representative pain points, and customer success workflows into a scalable CRM platform.",
+  "challenge": "Sales teams navigated disjointed customer communication histories, non-standardized deal qualification criteria, and manual pipeline tracking in spreadsheets. The absence of automated stage gates led to lead leakage and inaccurate revenue forecasting.",
+  "solution": "Architected clear deal progression stages, validation rules, and automated contact interaction timelines. Authored comprehensive PRDs defining lead conversion criteria, role-based visibility, and custom reporting filters. Prototyped the interface using AI prototyping to ensure rapid user adoption and frictionless data entry for sales reps.",
+  "architecture": {
+    "problem": "Unstandardized sales tracking and fragmented customer records caused lost deals and unpredictable revenue forecasting.",
+    "tradeoffs": "Designed a stage-gated pipeline state machine with mandatory validation criteria, balancing deep managerial visibility with low-friction rep data entry.",
+    "metricsDetail": [
+      "Engineered standardized stage-gate deal progression criteria and lead qualification metrics",
+      "Drafted detailed functional specifications, business rules, and edge-case handling protocols",
+      "Designed wireframes and interactive UI prototypes with AI prototyping tailored for high-speed sales workflows",
+      "Aligned product scope with business executives, sales leaders, and engineering delivery squads",
+      "Delivered complete release documentation, training decks, and rollout user guides"
+    ]
+  },
+  "outcomes": [
+    "Standardized enterprise sales pipelines across all active commercial accounts.",
+    "Accelerated sales velocity by eliminating manual deal status updates and lost contact histories.",
+    "Achieved seamless cross-functional alignment between commercial teams and technical developers."
+  ]
+}

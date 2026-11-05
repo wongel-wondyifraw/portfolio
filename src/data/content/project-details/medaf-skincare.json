@@ -1,0 +1,76 @@
+{
+  "id": "medaf-skincare",
+  "title": "Medaf Skincare Platform",
+  "subtitle": "AI-Powered Personalized Recommendations & Telegram Product Catalog Bot",
+  "category": "Full-Stack AI & E-Commerce",
+  "year": "2024",
+  "role": "Full-Stack Developer & AI Systems Engineer (Coded & Shipped)",
+  "client": "Medaf Skin Care",
+  "description": "Architected and coded an AI-powered skincare platform and interactive Telegram catalog bot for Medaf Skin Care using Next.js, Nest.js, PostgreSQL, and intelligent diagnostic algorithms—featuring conversational shopping and automated order pipelines.",
+  "image": "/projects/medaf-skincare.png",
+  "featured": true,
+  "metrics": "",
+  "liveUrl": "",
+  "githubUrl": "",
+  "gradient": "from-emerald-700/30 via-amber-600/20 to-stone-700/30",
+  "tags": [
+    "Next.js",
+    "Nest.js",
+    "PostgreSQL",
+    "AI Diagnostics",
+    "Telegram Bot API",
+    "Full-Stack Dev",
+    "AI Prototyping"
+  ],
+  "techStack": [
+    "Next.js",
+    "Nest.js",
+    "PostgreSQL",
+    "AI Diagnostic Engine",
+    "Telegram Bot API"
+  ],
+  "developmentProcess": [
+    "AI Diagnostic Questionnaire & Skin Recommendation Algorithm Design",
+    "Conversational Telegram Catalog Bot Webhook Backend with Nest.js",
+    "Responsive Storefront, Cart Management & Checkout UI in Next.js",
+    "Delivery System with Map Selection, Auto-Cost Calculation & PostgreSQL Architecture"
+  ],
+  "overview": "Built and coded an AI-powered skincare platform and Telegram catalog bot for Medaf Skin Care that simplifies routine discovery for beauty customers. Taking end-to-end full-stack engineering ownership, I coded the solution with Next.js, Nest.js, and PostgreSQL—implementing AI diagnostic recommendation algorithms, an automated Telegram bot for browsing product catalogs and ordering, and a modern responsive storefront.",
+  "productArchitecture": {
+    "overview": "The Medaf Skincare product architecture connects three core touchpoints into a unified customer and management flow:",
+    "pillars": [
+      {
+        "id": "telegram-bot",
+        "title": "Telegram Bot",
+        "icon": "bot"
+      },
+      {
+        "id": "telegram-mini-app",
+        "title": "Telegram Mini App",
+        "icon": "smartphone"
+      },
+      {
+        "id": "admin-web-console",
+        "title": "Admin Management Console",
+        "icon": "layout-dashboard"
+      }
+    ]
+  },
+  "challenge": "Customers routinely experienced product choice paralysis and hesitation when purchasing skincare online due to uncertain compatibility with their unique skin conditions and types.",
+  "solution": "Coded the complete system end-to-end: (1) Developed the AI diagnostic recommendation engine that analyzes skin parameters to suggest tailored regimens; (2) Programmed an event-driven Telegram Bot webhook in Nest.js enabling conversational catalog browsing, product filtering, and instant checkout; (3) Built a responsive Next.js storefront; and (4) Integrated an automated delivery system with interactive map selection, external location provider integration, and real-time delivery cost calculation on checkout, backed by structured relational PostgreSQL tables for products, inventory, customer quizzes, and orders.",
+  "architecture": {
+    "problem": "Customers experienced high decision friction identifying products tailored to specific skin types, reducing checkout completion rates.",
+    "tradeoffs": "Coded a modular Nest.js microservice backend coupled with Next.js and PostgreSQL, orchestrating AI rule-based recommendation pipelines and real-time Telegram Bot webhook event loops over disjointed manual order handling.",
+    "metricsDetail": [
+      "Coded the complete full-stack web application in Next.js, Nest.js, and PostgreSQL",
+      "Programmed conversational Telegram Bot webhooks in Nest.js for dynamic catalog browsing",
+      "Implemented AI-driven diagnostic engine matching customer skin concerns to curated regimens",
+      "Integrated delivery system featuring map location picker, auto delivery cost calculation via external location provider, and PostgreSQL order tracking"
+    ]
+  },
+  "outcomes": [
+    "Handled the end-to-end product process from concept and UI/UX design to development, AI integration, and deployment.",
+    "Enhanced customer trust through personalized skincare routine recommendations.",
+    "Delivered a modern, mobile-optimized digital storefront for the Medaf brand."
+  ]
+}

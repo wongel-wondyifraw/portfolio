@@ -1,0 +1,180 @@
+[
+  {
+    "id": "selamnew-workspace",
+    "title": "Selamnew Workspace",
+    "description": "Led the end-to-end product lifecycle for Selamnew Workspace, delivering a comprehensive digital workforce platform for automated attendance tracking, benefit & compensation administration, workforce planning, and employee performance tracking.",
+    "category": "Workforce & Benefit Administration",
+    "featured": true,
+    "image": "/projects/selamnew-workspace.png",
+    "tags": [
+      "Product Ownership",
+      "Workforce Administration",
+      "Benefit & Compensation",
+      "Attendance Tracking",
+      "Performance Systems",
+      "PRDs & FRDs"
+    ],
+    "metrics": "",
+    "liveUrl": "",
+    "githubUrl": "",
+    "gradient": "from-amber-600/35 via-orange-600/25 to-stone-600/30",
+    "architecture": {
+      "problem": "Manual attendance logging and disconnected benefit, compensation, and appraisal records caused operational bottlenecks, compliance risks, and delayed performance reviews.",
+      "tradeoffs": "Architected structured relational schemas and automated policy-driven calculation engines for attendance, compensation, and performance scoring over disjointed legacy spreadsheets.",
+      "metricsDetail": [
+        "Authored comprehensive PRDs, FRDs, and user stories for attendance, benefits, compensation, and performance tracking",
+        "Owned and prioritized sprint backlogs, leading sprint planning, grooming, and review ceremonies",
+        "Designed system process flows, policy validation rules, and approval workflow swimlanes",
+        "Coordinated with engineering and QA squads to oversee regression testing, release notes, and documentation"
+      ]
+    }
+  },
+  {
+    "id": "selamnew-crm",
+    "title": "CRM",
+    "description": "Directed the product lifecycle for the enterprise CRM platform, standardizing lead qualification pipelines, deal stage progressions, and stakeholder communication records into a high-visibility revenue operations platform.",
+    "category": "CRM & Revenue Ops",
+    "featured": true,
+    "image": "/projects/crm.png",
+    "tags": [
+      "Product Strategy",
+      "CRM Architecture",
+      "Requirements Definition",
+      "Process Optimization",
+      "User Stories",
+      "AI Prototyping"
+    ],
+    "metrics": "",
+    "liveUrl": "",
+    "githubUrl": "",
+    "gradient": "from-orange-600/35 via-amber-600/25 to-stone-600/30",
+    "architecture": {
+      "problem": "Unstandardized sales tracking and fragmented customer records caused lost deals and unpredictable revenue forecasting.",
+      "tradeoffs": "Designed a stage-gated pipeline state machine with mandatory validation criteria, balancing deep managerial visibility with low-friction rep data entry.",
+      "metricsDetail": [
+        "Engineered standardized stage-gate deal progression criteria and lead qualification metrics",
+        "Drafted detailed functional specifications, business rules, and edge-case handling protocols",
+        "Designed wireframes and interactive UI prototypes with AI prototyping tailored for high-speed sales workflows",
+        "Aligned product scope with business executives, sales leaders, and engineering delivery squads"
+      ]
+    }
+  },
+  {
+    "id": "selamnew-service-desk",
+    "title": "Service Desk (SD)",
+    "description": "Architected product capabilities for the Service Desk (SD) platform, establishing automated multi-tier ticket routing, SLA threshold timers, priority escalation rules, and end-to-end incident lifecycle visibility.",
+    "category": "ITSM & Support Systems",
+    "featured": true,
+    "image": "/projects/sd.png",
+    "tags": [
+      "Product Ownership",
+      "ITSM / Service Desk",
+      "SLA Escalation Rules",
+      "PRDs & FRDs",
+      "Process Swimlanes",
+      "UI/UX Prototypes"
+    ],
+    "metrics": "",
+    "liveUrl": "",
+    "githubUrl": "",
+    "gradient": "from-purple-600/35 via-violet-600/25 to-stone-600/30",
+    "architecture": {
+      "problem": "Manual ticket dispatch and untracked service level agreements caused high Mean Time to Resolution (MTTR) and customer dissatisfaction.",
+      "tradeoffs": "Engineered automated rule-based ticket routing matrices and event-driven SLA timer hooks to instantly escalate unresolved incidents.",
+      "metricsDetail": [
+        "Architected automated ticket routing matrices, severity scoring models, and escalation paths",
+        "Authored extensive PRDs and FRDs specifying edge cases, state transitions, and SLA timers",
+        "Designed intuitive triage interfaces and telemetry dashboards with AI prototyping",
+        "Facilitated sprint planning, user story acceptance testing, and QA validation cycles"
+      ]
+    }
+  },
+  {
+    "id": "fleet-logistics",
+    "title": "Fleet Site Logistic System",
+    "description": "Architected and coded the end-to-end Logistics Management System for a private client using Next.js, Nest.js, and PostgreSQL—delivering real-time vehicle dispatching, driver scheduling, and relational telemetry schemas.",
+    "category": "Full-Stack & Systems Engineering",
+    "featured": false,
+    "image": "/projects/fleet-logistics.png",
+    "tags": [
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Full-Stack Dev",
+      "RESTful APIs",
+      "System Architecture"
+    ],
+    "techStack": [
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "TypeScript",
+      "REST APIs"
+    ],
+    "developmentProcess": [
+      "Requirements Elicitation & Relational Schema Modeling in PostgreSQL",
+      "Backend Architecture & Modular Dispatch Microservices with Nest.js",
+      "Reactive Operations & Dispatcher Web Dashboard in Next.js",
+      "Production Deployment, System Documentation, and Handover Training"
+    ],
+    "metrics": "Coded Full-Stack • Real-Time Dispatch",
+    "liveUrl": "",
+    "githubUrl": "",
+    "gradient": "from-slate-700/40 via-blue-900/30 to-stone-900/30",
+    "architecture": {
+      "problem": "Manual vehicle allocation and lack of centralized route tracking caused frequent dispatch delays and communication overhead for logistic coordinators.",
+      "tradeoffs": "Coded a high-performance web dashboard with Nest.js modular microservices and relational scheduling schemas in PostgreSQL over unindexed spreadsheet logging.",
+      "metricsDetail": [
+        "Coded and delivered the full-stack system end-to-end with Next.js, Nest.js, and PostgreSQL",
+        "Engineered optimized PostgreSQL database tables, foreign-key relationships, and indexing",
+        "Built modular Nest.js controllers, services, and DTO validation layers for fleet operations",
+        "Streamlined dispatch turnaround and order fulfillment workflows into production"
+      ]
+    }
+  },
+  {
+    "id": "medaf-skincare",
+    "title": "Medaf Skincare Platform",
+    "description": "Architected and coded the 3-tier Medaf Skincare ecosystem: an automated Telegram Bot for customer routing, an embedded Telegram Mini App (TMA) for visual catalog browsing & AI skin diagnostics, and a centralized Admin Management Web Console built with Next.js, Nest.js, and PostgreSQL.",
+    "category": "Full-Stack AI & E-Commerce",
+    "featured": false,
+    "image": "/projects/medaf-skincare.png",
+    "tags": [
+      "Telegram Bot",
+      "Telegram Mini App",
+      "Admin Web Console",
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "AI Diagnostics"
+    ],
+    "techStack": [
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Telegram Mini App",
+      "Telegram Bot API",
+      "AI Diagnostics"
+    ],
+    "developmentProcess": [
+      "AI Diagnostic Questionnaire & Skin Recommendation Algorithm Design",
+      "Conversational Telegram Catalog Bot Webhook Backend with Nest.js",
+      "Responsive Storefront, Cart Management & Checkout UI in Next.js",
+      "Delivery System with Map Selection, Auto-Cost Calculation & PostgreSQL Architecture"
+    ],
+    "metrics": "Coded Full-Stack • AI Diagnostics & Telegram Bot",
+    "liveUrl": "",
+    "githubUrl": "",
+    "gradient": "from-emerald-700/30 via-amber-600/20 to-stone-700/30",
+    "architecture": {
+      "problem": "Customers experienced high decision friction identifying products tailored to specific skin types, reducing checkout completion rates.",
+      "tradeoffs": "Designed an intelligent diagnostic questionnaire coupled with a rule-based AI recommendation pipeline matching dermatological parameters to curated regimens.",
+      "metricsDetail": [
+        "Coded the complete full-stack web application in Next.js, Nest.js, and PostgreSQL",
+        "Programmed conversational Telegram Bot webhooks in Nest.js for dynamic catalog browsing",
+        "Implemented AI-driven diagnostic engine matching customer skin concerns to curated regimens",
+        "Integrated delivery system featuring map location picker, auto delivery cost calculation via external location provider, and PostgreSQL order tracking"
+      ]
+    }
+  }
+]

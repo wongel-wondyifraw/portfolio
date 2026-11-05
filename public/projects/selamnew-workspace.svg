@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ws-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181310"/>
+      <stop offset="50%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <radialGradient id="ws-glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#c2632b" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#c2632b" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c2632b"/>
+      <stop offset="100%" stop-color="#e08244"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#ws-bg)"/>
+  <rect width="800" height="500" fill="url(#ws-glow)"/>
+
+  <!-- Subtle Blueprint Grid -->
+  <g opacity="0.12">
+    <line x1="0" y1="100" x2="800" y2="100" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="0" y1="200" x2="800" y2="200" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="0" y1="300" x2="800" y2="300" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="0" y1="400" x2="800" y2="400" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- Mockup: Workspace Desktop Interface -->
+  <g transform="translate(70, 70)">
+    <!-- Main Window Frame -->
+    <rect width="660" height="360" rx="12" fill="#1e1814" stroke="#c2632b" stroke-opacity="0.4" stroke-width="1.5"/>
+    
+    <!-- Window Bar -->
+    <rect width="660" height="38" rx="12" fill="#2a201a"/>
+    <circle cx="24" cy="19" r="5" fill="#e06c75"/>
+    <circle cx="42" cy="19" r="5" fill="#e5c07b"/>
+    <circle cx="60" cy="19" r="5" fill="#98c379"/>
+    <text x="90" y="24" fill="#d4a373" font-family="monospace" font-size="11" font-weight="600">SELAMNEW WORKSPACE // COLLABORATION &amp; TEAMS HUB</text>
+
+    <!-- Workspace Sidebar Panel -->
+    <rect x="0" y="38" width="160" height="322" fill="#17120e" opacity="0.95"/>
+    <rect x="16" y="56" width="128" height="24" rx="4" fill="#c2632b" fill-opacity="0.25"/>
+    <text x="26" y="72" fill="#f5c29f" font-family="sans-serif" font-size="11" font-weight="700">★ IE Net Spaces</text>
+    
+    <text x="26" y="112" fill="#998375" font-family="monospace" font-size="10">CHANNELS</text>
+    <rect x="16" y="122" width="128" height="18" rx="3" fill="#2a201a"/>
+    <text x="26" y="135" fill="#d4a373" font-family="sans-serif" font-size="10"># sprint-delivery</text>
+    <text x="26" y="158" fill="#887367" font-family="sans-serif" font-size="10"># architecture-prd</text>
+    <text x="26" y="180" fill="#887367" font-family="sans-serif" font-size="10"># release-notes</text>
+
+    <text x="26" y="220" fill="#998375" font-family="monospace" font-size="10">MODULES</text>
+    <text x="26" y="242" fill="#887367" font-family="sans-serif" font-size="10">📋 Task Backlogs</text>
+    <text x="26" y="266" fill="#887367" font-family="sans-serif" font-size="10">📄 Doc Repositories</text>
+    <text x="26" y="290" fill="#887367" font-family="sans-serif" font-size="10">📊 Team Velocity</text>
+
+    <!-- Content Workspace Area: Kanban Board -->
+    <g transform="translate(176, 52)">
+      <!-- Column 1: Backlog -->
+      <rect x="0" y="0" width="145" height="290" rx="8" fill="#241b15" stroke="#3d2d22" stroke-width="1"/>
+      <text x="14" y="24" fill="#d4a373" font-family="monospace" font-size="10" font-weight="700">PRODUCT BACKLOG</text>
+      <rect x="10" y="38" width="125" height="58" rx="6" fill="#1b140f" stroke="#52392b" stroke-width="1"/>
+      <text x="18" y="56" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">PRD Spec: SSO Auth</text>
+      <text x="18" y="72" fill="#8c786a" font-family="monospace" font-size="8">PO: WONGEL • P1</text>
+      <rect x="18" y="78" width="45" height="12" rx="2" fill="#c2632b" fill-opacity="0.3"/>
+      <text x="22" y="87" fill="#f5c29f" font-family="monospace" font-size="7">PLANNED</text>
+
+      <rect x="10" y="106" width="125" height="58" rx="6" fill="#1b140f" stroke="#52392b" stroke-width="1"/>
+      <text x="18" y="124" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Cross-team Sharing</text>
+      <text x="18" y="140" fill="#8c786a" font-family="monospace" font-size="8">PO: WONGEL • P2</text>
+
+      <!-- Column 2: In Progress -->
+      <rect x="160" y="0" width="145" height="290" rx="8" fill="#241b15" stroke="#c2632b" stroke-opacity="0.5" stroke-width="1"/>
+      <text x="174" y="24" fill="#e08244" font-family="monospace" font-size="10" font-weight="700">IN DEVELOPMENT</text>
+      <rect x="170" y="38" width="125" height="68" rx="6" fill="#2b1d16" stroke="#c2632b" stroke-width="1.2"/>
+      <text x="178" y="56" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="700">Doc Version Control</text>
+      <text x="178" y="72" fill="#d4a373" font-family="monospace" font-size="8">SPRINT 14 • 8 PTS</text>
+      <rect x="178" y="80" width="60" height="14" rx="2" fill="#10b981" fill-opacity="0.25"/>
+      <text x="183" y="90" fill="#34d399" font-family="monospace" font-size="8">UAT ACTIVE</text>
+
+      <!-- Column 3: Shipped -->
+      <rect x="320" y="0" width="145" height="290" rx="8" fill="#241b15" stroke="#3d2d22" stroke-width="1"/>
+      <text x="334" y="24" fill="#34d399" font-family="monospace" font-size="10" font-weight="700">SHIPPED &amp; LIVE</text>
+      <rect x="330" y="38" width="125" height="58" rx="6" fill="#1b140f" stroke="#2a4533" stroke-width="1"/>
+      <text x="338" y="56" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Enterprise Role RBAC</text>
+      <text x="338" y="72" fill="#8c786a" font-family="monospace" font-size="8">100% ADOPTION</text>
+      
+      <rect x="330" y="106" width="125" height="58" rx="6" fill="#1b140f" stroke="#2a4533" stroke-width="1"/>
+      <text x="338" y="124" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Real-time Collab WS</text>
+      <text x="338" y="140" fill="#8c786a" font-family="monospace" font-size="8">VERIFIED 2024</text>
+    </g>
+  </g>
+</svg>

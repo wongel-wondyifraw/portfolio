@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Product Ownership & Analysis",
+    "skills": [
+      "Backlog Prioritization",
+      "PRD & FRD Authoring",
+      "User Stories & Acceptance Criteria",
+      "Process Flows & System Design",
+      "Scrum & Agile Ceremonies",
+      "Stakeholder Alignment"
+    ]
+  },
+  {
+    "title": "Web & Database Engineering",
+    "skills": [
+      "Next.js & React.js",
+      "Nest.js",
+      "SQL & PostgreSQL",
+      "RESTful API Integration",
+      "System Architecture"
+    ]
+  },
+  {
+    "title": "Tools, Platforms & Systems",
+    "skills": [
+      "AI Prototyping",
+      "Jira & ClickUp",
+      "Google Workspace & MS Office",
+      "Service Desk (SD) & CRM",
+      "Hardware Troubleshooting",
+      "Network Setup & Data Recovery"
+    ]
+  }
+]

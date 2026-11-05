@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="crm-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191310"/>
+      <stop offset="50%" stop-color="#241b14"/>
+      <stop offset="100%" stop-color="#120e0b"/>
+    </linearGradient>
+    <radialGradient id="crm-glow" cx="65%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#b85d26" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#b85d26" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pipeline-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c2632b"/>
+      <stop offset="50%" stop-color="#e08244"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#crm-bg)"/>
+  <rect width="800" height="500" fill="url(#crm-glow)"/>
+
+  <!-- Blueprint Grid -->
+  <g opacity="0.12">
+    <line x1="0" y1="120" x2="800" y2="120" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="0" y1="240" x2="800" y2="240" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="0" y1="360" x2="800" y2="360" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="200" y1="0" x2="200" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="400" y1="0" x2="400" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+    <line x1="600" y1="0" x2="600" y2="500" stroke="#d4a373" stroke-dasharray="3 3"/>
+  </g>
+
+  <!-- CRM Pipeline Dashboard Frame -->
+  <g transform="translate(70, 70)">
+    <rect width="660" height="360" rx="12" fill="#1e1814" stroke="#c2632b" stroke-opacity="0.4" stroke-width="1.5"/>
+    
+    <!-- Title Bar -->
+    <rect width="660" height="38" rx="12" fill="#2a201a"/>
+    <circle cx="24" cy="19" r="5" fill="#e06c75"/>
+    <circle cx="42" cy="19" r="5" fill="#e5c07b"/>
+    <circle cx="60" cy="19" r="5" fill="#98c379"/>
+    <text x="90" y="24" fill="#d4a373" font-family="monospace" font-size="11" font-weight="600">SELAMNEW CRM // SALES PIPELINE &amp; RELATIONSHIP SUITE</text>
+
+    <!-- Top KPI Cards -->
+    <g transform="translate(24, 52)">
+      <!-- KPI 1 -->
+      <rect x="0" y="0" width="185" height="64" rx="8" fill="#251c16" stroke="#4a3528" stroke-width="1"/>
+      <text x="14" y="22" fill="#a89283" font-family="monospace" font-size="9">ACTIVE PIPELINE VALUE</text>
+      <text x="14" y="48" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="700">ETB 14.8M</text>
+      <text x="125" y="46" fill="#34d399" font-family="monospace" font-size="9">+32.4%</text>
+
+      <!-- KPI 2 -->
+      <rect x="212" y="0" width="185" height="64" rx="8" fill="#251c16" stroke="#c2632b" stroke-opacity="0.6" stroke-width="1"/>
+      <text x="226" y="22" fill="#a89283" font-family="monospace" font-size="9">DEAL CONVERSION RATE</text>
+      <text x="226" y="48" fill="#f5c29f" font-family="sans-serif" font-size="18" font-weight="700">28.6%</text>
+      <text x="337" y="46" fill="#34d399" font-family="monospace" font-size="9">OPTIMIZED</text>
+
+      <!-- KPI 3 -->
+      <rect x="424" y="0" width="188" height="64" rx="8" fill="#251c16" stroke="#4a3528" stroke-width="1"/>
+      <text x="438" y="22" fill="#a89283" font-family="monospace" font-size="9">LEAD VELOCITY (CYCLE)</text>
+      <text x="438" y="48" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="700">12 Days</text>
+      <text x="549" y="46" fill="#34d399" font-family="monospace" font-size="9">-40%</text>
+    </g>
+
+    <!-- Funnel & Deal Stage Lanes -->
+    <g transform="translate(24, 134)">
+      <!-- Funnel Stage Bar -->
+      <text x="4" y="16" fill="#d4a373" font-family="monospace" font-size="11" font-weight="700">DEAL PIPELINE WORKFLOW (PO ARCHITECTURED)</text>
+      
+      <!-- Stage 1: Lead Inbound -->
+      <rect x="0" y="32" width="140" height="175" rx="6" fill="#241b15" stroke="#3d2c21" stroke-width="1"/>
+      <text x="12" y="52" fill="#f5c29f" font-family="monospace" font-size="9" font-weight="700">QUALIFIED LEADS</text>
+      <rect x="10" y="64" width="120" height="44" rx="4" fill="#1c1510" stroke="#4a3528" stroke-width="1"/>
+      <text x="18" y="82" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Enterprise Cloud Deal</text>
+      <text x="18" y="96" fill="#c2632b" font-family="monospace" font-size="8">ETB 1.2M • TECH</text>
+
+      <!-- Stage 2: Proposal / Solution -->
+      <rect x="156" y="32" width="140" height="175" rx="6" fill="#241b15" stroke="#3d2c21" stroke-width="1"/>
+      <text x="168" y="52" fill="#f5c29f" font-family="monospace" font-size="9" font-weight="700">SOLUTION PROPOSAL</text>
+      <rect x="166" y="64" width="120" height="44" rx="4" fill="#1c1510" stroke="#4a3528" stroke-width="1"/>
+      <text x="174" y="82" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Bank Infra Upgrade</text>
+      <text x="174" y="96" fill="#c2632b" font-family="monospace" font-size="8">ETB 4.5M • FINTECH</text>
+
+      <!-- Stage 3: Negotiation / Review -->
+      <rect x="312" y="32" width="140" height="175" rx="6" fill="#241b15" stroke="#c2632b" stroke-opacity="0.7" stroke-width="1"/>
+      <text x="324" y="52" fill="#e08244" font-family="monospace" font-size="9" font-weight="700">STAKEHOLDER REVIEW</text>
+      <rect x="322" y="64" width="120" height="44" rx="4" fill="#2b1d16" stroke="#c2632b" stroke-width="1"/>
+      <text x="330" y="82" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="700">Gov Network Contract</text>
+      <text x="330" y="96" fill="#34d399" font-family="monospace" font-size="8">ETB 8.1M • CLOSING</text>
+
+      <!-- Stage 4: Closed Won -->
+      <rect x="468" y="32" width="144" height="175" rx="6" fill="#241b15" stroke="#2a4533" stroke-width="1"/>
+      <text x="480" y="52" fill="#34d399" font-family="monospace" font-size="9" font-weight="700">WON &amp; ONBOARDED</text>
+      <rect x="478" y="64" width="124" height="44" rx="4" fill="#1c1510" stroke="#2a4533" stroke-width="1"/>
+      <text x="486" y="82" fill="#f0ebe6" font-family="sans-serif" font-size="10" font-weight="600">Telecom Security SD</text>
+      <text x="486" y="96" fill="#34d399" font-family="monospace" font-size="8">100% EXECUTED</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+{
+  "id": "fleet-logistics",
+  "title": "Fleet Site Logistic System",
+  "subtitle": "End-to-End Commercial Logistics & Fleet Dispatch Platform",
+  "category": "Full-Stack & Systems Engineering",
+  "year": "2024",
+  "role": "Full-Stack Developer & Product Owner (Coded & Shipped)",
+  "client": "Private Logistics Client",
+  "description": "Architected and coded the end-to-end Logistics Management System for a private client using Next.js, Nest.js, and PostgreSQL—delivering real-time vehicle dispatching, driver scheduling, and relational telemetry schemas.",
+  "image": "/projects/fleet-logistics.png",
+  "featured": true,
+  "metrics": "",
+  "liveUrl": "",
+  "githubUrl": "",
+  "gradient": "from-slate-700/40 via-blue-900/30 to-stone-900/30",
+  "tags": [
+    "Next.js",
+    "Nest.js",
+    "PostgreSQL",
+    "Full-Stack Dev",
+    "RESTful APIs",
+    "System Architecture",
+    "AI Prototyping"
+  ],
+  "techStack": [
+    "Next.js",
+    "Nest.js",
+    "PostgreSQL",
+    "TypeScript",
+    "REST APIs"
+  ],
+  "developmentProcess": [
+    "Requirements Elicitation & Relational Schema Modeling in PostgreSQL",
+    "Backend Architecture & Modular Dispatch Microservices with Nest.js",
+    "Reactive Operations & Dispatcher Web Dashboard in Next.js",
+    "Production Deployment, System Documentation, and Handover Training"
+  ],
+  "overview": "Fleet Site Logistic System was created to replace legacy manual dispatch processes with a streamlined, centralized operations platform. Taking end-to-end ownership as Full-Stack Developer and Product Owner, I personally coded the platform using Next.js, Nest.js, and PostgreSQL—covering stakeholder interviews, requirements definition (PRD/FRD), database architecture, full-stack API implementation, and production deployment.",
+  "challenge": "Logistics operators struggled with fragmented driver tracking, verbal vehicle assignments, and paper receipts, leading to schedule conflicts and lack of visibility on delivery fulfillment.",
+  "solution": "Coded the complete full-stack system from scratch. Designed a normalized PostgreSQL relational database with foreign-key constraints and optimized indexes across vehicles, drivers, trips, and dispatch orders. Built scalable backend REST services in Nest.js with DTO validation and business rules, and integrated an intuitive, reactive operations dashboard in Next.js for real-time fleet coordination.",
+  "architecture": {
+    "problem": "Manual vehicle allocation and lack of centralized route tracking caused frequent dispatch delays and communication overhead for logistic coordinators.",
+    "tradeoffs": "Coded a high-performance web dashboard with Nest.js modular microservices and relational scheduling schemas in PostgreSQL over unindexed spreadsheet logging.",
+    "metricsDetail": [
+      "Coded and delivered the full-stack system end-to-end with Next.js, Nest.js, and PostgreSQL",
+      "Engineered optimized PostgreSQL database tables, foreign-key relationships, and indexing",
+      "Built modular Nest.js controllers, services, and DTO validation layers for fleet operations",
+      "Streamlined dispatch turnaround and order fulfillment workflows into production"
+    ]
+  },
+  "outcomes": [
+    "Took full ownership of the entire product lifecycle from concept to delivery.",
+    "Streamlined daily vehicle dispatching and operational record-keeping.",
+    "Delivered comprehensive user guides, workflow documentation, and operator training."
+  ]
+}
