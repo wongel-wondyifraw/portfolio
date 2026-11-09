@@ -77,7 +77,7 @@ async function ProjectDetailContent({
       {/* Hero Header */}
       <div className="space-y-4">
         <div className="flex flex-wrap items-center gap-2.5">
-          <Badge variant="secondary" className="font-mono text-xs px-3 py-1">
+          <Badge variant="secondary" className="font-sans font-medium text-xs px-3 py-1">
             {project.category}
           </Badge>
           {project.year && (

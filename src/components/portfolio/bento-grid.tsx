@@ -43,14 +43,14 @@ export function BentoGrid() {
               className="group p-6 rounded-2xl border border-border/70 bg-card hover:border-primary/40 transition-all duration-200 shadow-2xs space-y-4"
             >
               {/* Meta Header */}
-              <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono">
+              <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
                 <div className="flex items-center gap-2">
-                  <span className="text-primary font-bold">0{index + 1}</span>
+                  <span className="font-mono text-primary font-bold">0{index + 1}</span>
                   <span className="text-muted-foreground">•</span>
-                  <span className="text-muted-foreground">{project.category}</span>
+                  <span className="font-sans font-medium text-muted-foreground">{project.category}</span>
                 </div>
                 {project.metrics && (
-                  <span className="text-emerald-600 dark:text-emerald-400 font-medium">
+                  <span className="font-mono text-emerald-600 dark:text-emerald-400 font-medium">
                     {project.metrics}
                   </span>
                 )}
