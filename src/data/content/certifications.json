@@ -1,5 +1,16 @@
 [
   {
+    "id": "ai-agents-mcp",
+    "title": "AI Agents with Model Context Protocol - Vanderbilt University",
+    "issuer": "Vanderbilt University · Coursera",
+    "platform": "Coursera",
+    "credentialId": "ZDM0LZCYDFRQ",
+    "verifyUrl": "https://www.coursera.org/account/accomplishments/verify/ZDM0LZCYDFRQ",
+    "thumbnail": "/certifications/ai-agents-mcp.png",
+    "badge": "AI & Agentic Systems",
+    "skills": ["AI Agents", "Model Context Protocol", "LLM Tool Use", "Agent Architecture"]
+  },
+  {
     "id": "systems-architecture",
     "title": "Introduction to Systems Architecture",
     "issuer": "Coursera Verification Authority",
@@ -33,4 +44,3 @@
     "skills": ["UX Research", "Wireframing", "Information Architecture", "Usability Testing"]
   }
 ]
-

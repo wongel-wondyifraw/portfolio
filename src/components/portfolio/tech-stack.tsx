@@ -130,7 +130,7 @@ export function TechStack() {
                   <span>Verified Accreditations</span>
                 </div>
                 <p className="text-xs text-muted-foreground leading-relaxed">
-                  3 industry certifications verified across Coursera and Credly in Systems Architecture, Agile Scrum Product Ownership, and UX Design Fundamentals.
+                  4 industry certifications verified across Coursera and Credly in AI Agents with MCP, Systems Architecture, Agile Scrum Product Ownership, and UX Design Fundamentals.
                 </p>
               </div>
               <div className="pt-3">

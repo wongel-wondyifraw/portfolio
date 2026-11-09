@@ -25,8 +25,8 @@ export function Certifications() {
         </h2>
       </div>
 
-      {/* Simple Clickable Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      {/* Simple Clickable Cards Grid: 2-Column Responsive Layout */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         {certifications.map((cert) => (
           <a
             key={cert.id}
