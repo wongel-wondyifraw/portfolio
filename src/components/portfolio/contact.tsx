@@ -44,25 +44,44 @@ export function Contact() {
 
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
-    await new Promise((resolve) => setTimeout(resolve, 600));
-
-    playSuccess();
     try {
-      confetti({
-        particleCount: 45,
-        spread: 60,
-        origin: { y: 0.7 },
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
       });
-    } catch {
-      // ignore
+
+      const result = await response.json().catch(() => ({}));
+
+      if (!response.ok) {
+        throw new Error(result.error || "Failed to dispatch message.");
+      }
+
+      playSuccess();
+      try {
+        confetti({
+          particleCount: 45,
+          spread: 60,
+          origin: { y: 0.7 },
+        });
+      } catch {
+        // ignore
+      }
+
+      toast.success("Message dispatched!", {
+        description: `Thank you ${data.name}. Your inquiry was sent to Telegram, and I will get back to you shortly at ${data.email}.`,
+      });
+
+      reset();
+    } catch (err: unknown) {
+      const errorMsg =
+        err instanceof Error ? err.message : "Failed to deliver message.";
+      toast.error("Message could not be sent", {
+        description: errorMsg,
+      });
+    } finally {
+      setIsSubmitting(false);
     }
-
-    toast.success("Message dispatched!", {
-      description: `Thank you ${data.name}. I will get back to you shortly at ${data.email}.`,
-    });
-
-    reset();
-    setIsSubmitting(false);
   };
 
   return (
